@@ -5,9 +5,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%90%8B+I'm+Shayan+Muhammad;AI+%26+Machine+Learning+Engineer;Building+Local+RAG+Systems+%26+Autonomous+Agents;Passionate+about+Deep+Learning+%26+Full-Stack+AI" alt="Typing SVG" />
   </a>
 
-  <p align="center">
-    <strong>Islamabad, Pakistan 📍</strong> | <strong>AI & ML Engineer 🤖</strong> 
-  </p>
 
   <!-- Quick Social Badges -->
   <p align="center">
