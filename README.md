@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    <strong>Islamabad, Pakistan 📍</strong> | <strong>AI & ML Engineer 🤖</strong> | <strong>Open Source Enthusiast 🚀</strong>
+    <strong>Islamabad, Pakistan 📍</strong> | <strong>AI & ML Engineer 🤖</strong> 
   </p>
 
   <!-- Quick Social Badges -->
