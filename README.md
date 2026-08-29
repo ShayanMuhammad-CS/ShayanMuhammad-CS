@@ -123,6 +123,18 @@ Developer Profile:
 
 ---
 
+### 🌐 Open Source Contributions
+
+<div align="center">
+
+| Project | Contribution |
+| :--- | :--- |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | [#10013](https://github.com/refined-github/refined-github/pull/10013) — `hide-inactive-deployments`: also hide failed deployments |
+
+</div>
+
+---
+
 ### 📊 GitHub Analytics
 
 <div align="center">
