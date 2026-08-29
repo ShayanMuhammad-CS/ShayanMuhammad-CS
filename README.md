@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Shayan+Muhammad;Full+Stack+Builder;I+design%2C+build%2C+and+ship+products+end-to-end" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Shayan+Muhammad;Full+Stack+Builder;AI-Forward+by+Design" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -18,19 +18,17 @@
 
 </div>
 
----
+<br/>
 
-### About Me
+<div align="center">
 
-I'm a **Full Stack Builder** — I take products from idea to shipped, across the frontend, backend, and the AI/data layer when a project needs it.
+I build products end-to-end — frontend, backend, infrastructure — and reach for AI wherever it makes the product sharper, not just because it's trendy. Comfortable owning something from a blank repo to a live user.
 
-- 🔭 Building **DocuMind**, a privacy-first local RAG app, and an autonomous AI workflow system.
-- 🌱 Also contribute to open source — most recently a fix merged into [refined-github](https://github.com/refined-github/refined-github).
-- 📍 Islamabad, Pakistan
+📍 Islamabad, Pakistan
 
----
+</div>
 
-### Tech Stack
+<br/>
 
 <div align="center">
 
@@ -42,23 +40,10 @@ I'm a **Full Stack Builder** — I take products from idea to shipped, across th
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
----
-
-### Featured Projects
-
-| Project | Description |
-| :--- | :--- |
-| [DocuMind](https://github.com/ShayanMuhammad-CS/DOCUMIND-RAG-for-Your-Notes) | Local RAG app for querying PDFs and notes, offline-first |
-| [AI Employee](https://github.com/ShayanMuhammad-CS/AI_Employee) | Autonomous workflow system for quotations, email, and task execution |
-| [DeforestAI](https://github.com/ShayanMuhammad-CS/DEFORESTAI-DETECTION-SYSTEM) | Satellite-vision model to detect deforestation trends |
-
-**Open source:** [refined-github#10013](https://github.com/refined-github/refined-github/pull/10013) — fixed the `hide-inactive-deployments` feature to also hide failed deployments.
-
----
+<br/>
 
 <div align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ShayanMuhammad-CS&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
