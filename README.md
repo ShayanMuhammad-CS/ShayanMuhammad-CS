@@ -1,51 +1,52 @@
-<div align="center">
+### Shayan Muhammad
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=61AFEF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Shayan+Muhammad;Full+Stack+Builder;AI-Forward+by+Design" alt="Typing SVG" />
-  </a>
+**Full-stack engineer, AI-forward.** I ship products end to end — API, data layer, UI, deploy —
+and reach for models where they make the product sharper, not where they make the README longer.
+Islamabad, Pakistan.
 
-  <p align="center">
-    <a href="https://github.com/ShayanMuhammad-CS" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-    <a href="https://linkedin.com/in/shayan-muhammad-cs" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="mailto:shayanmuhammad.cs@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </p>
+```
+focus     agentic systems · retrieval (RAG) · applied CV/ML · product engineering
+stack     Python · TypeScript · React · FastAPI · Node · Postgres · Docker
+open to   open-source work, internships, and hard problems
+```
 
-</div>
+[![GitHub](https://img.shields.io/badge/-ShayanMuhammad--CS-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShayanMuhammad-CS)
+[![LinkedIn](https://img.shields.io/badge/-shayan--muhammad--cs-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shayan-muhammad-cs)
+[![Email](https://img.shields.io/badge/-shayanmuhammad.cs@gmail.com-BB001B?style=flat-square&logo=gmail&logoColor=white)](mailto:shayanmuhammad.cs@gmail.com)
 
-<br/>
+---
 
-<div align="center">
+### Open source
 
-I build products end-to-end — frontend, backend, infrastructure — and reach for AI wherever it makes the product sharper, not just because it's trendy. Comfortable owning something from a blank repo to a live user.
+Patches to projects I actually use, not drive-by typo fixes.
 
-📍 Islamabad, Pakistan
+| | | |
+|---|---|---|
+| [**huggingface/smolagents**](https://github.com/huggingface/smolagents/pull/2755) | Bind function arguments with CPython semantics in the local Python executor | `open` |
+| [**refined-github/refined-github**](https://github.com/refined-github/refined-github/pull/10013) | `hide-inactive-deployments` also hides failed deployments | `merged` |
+| [**tscircuit/schematic-symbols**](https://github.com/tscircuit/schematic-symbols/pull/452) | Add phototransistor schematic symbol | `open` |
 
-</div>
+Plus ~15 shipped PRs on a private product team — Kanban boards, per-user view state,
+permission scoping, authenticated attachment downloads, accessibility fixes.
 
-<br/>
+---
 
-<div align="center">
+### Selected work
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+**[MeetSense](https://github.com/ShayanMuhammad-CS/MeetSense)** — meeting intelligence pipeline.
+Audio/video ingest → speech-to-text → speaker diarization, built to run as composable modules. `Python`
 
-</div>
+**[Multimodal RAG Pipeline](https://github.com/ShayanMuhammad-CS/Multimodal_RAG_Pipeline)** — document
+intelligence over charts and PDFs, pairing vector retrieval with vision LLMs so the model sees the
+figure instead of guessing from its caption. `PyTorch` `VLMs`
 
-<br/>
+**[DocuMind](https://github.com/ShayanMuhammad-CS/DOCUMIND-RAG-for-Your-Notes)** — fully local RAG
+for your own notes. ChromaDB + Ollama with cross-encoder reranking, so nothing leaves the machine. `LangChain` `Gradio`
 
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ShayanMuhammad-CS&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShayanMuhammad-CS&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</div>
+**[DeforestAI](https://github.com/ShayanMuhammad-CS/DEFORESTAI-DETECTION-SYSTEM)** — satellite imagery
+model that detects and tracks deforestation trends over time. `Computer Vision`
+
+---
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=ShayanMuhammad-CS&show_icons=true&hide=issues&theme=github_dark&hide_border=true&bg_color=00000000&icon_color=58A6FF&title_color=58A6FF&text_color=8B949E" alt="stats" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShayanMuhammad-CS&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="top languages" />
