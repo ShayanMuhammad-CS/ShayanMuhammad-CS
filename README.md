@@ -73,7 +73,10 @@ Beyond standalone public repositories, I have driven and delivered **15+ product
 
 | Major Repository | Contribution & Subsystem | Status |
 | :--- | :--- | :---: |
+| [**modelcontextprotocol / servers**](https://github.com/modelcontextprotocol/servers) | **Model Context Protocol (MCP) Server Confinement & Isolation**<br/>Engineered boundary and repository scope isolation configurations for `mcp-server-git`, hardening unconfined tool execution parameters for agentic context pipelines. | `Contributions` 🛡️ |
+| [**adbar / trafilatura**](https://github.com/adbar/trafilatura) | **High-Fidelity Web & DOM Extraction Engine**<br/>Contributed robust text discovery, document structure parsing, and DOM edge-case filtering routines powering downstream LLM ingestion pipelines. | `Contributions` ⚡ |
 | [**huggingface / smolagents**](https://github.com/huggingface/smolagents/pull/2755) | **CPython Argument Binding in Local Python Executor**<br/>Engineered standard CPython keyword/positional argument resolution for tool calling in local sandboxes. Resolved critical parameter mapping mismatches during autonomous agent execution. | `PR Shipped` 🚀 |
+| [**makenotion / notion-sdk-js**](https://github.com/makenotion/notion-sdk-js/pull/779) | **Block Schema & Column Nesting Validation**<br/>Fixed child block nesting constraints allowing `column_list` and `column` structures inside single-level-nestable parent blocks across official JavaScript SDK typings. | `PR Shipped` 🚀 |
 | [**refined-github / refined-github**](https://github.com/refined-github/refined-github/pull/10013) | **Deployment Visibility & Status Filtering**<br/>Extended `hide-inactive-deployments` to intelligently prune failed and stale deployment markers across dense enterprise GitHub dashboards, improving workflow visibility for thousands of developers worldwide. | `Merged` ✅ |
 | [**tscircuit / schematic-symbols**](https://github.com/tscircuit/schematic-symbols/pull/452) | **Hardware EDA Symbol Specifications**<br/>Contributed standardized phototransistor optical schematic symbol geometry and pin definitions for the open-source browser EDA circuit ecosystem. | `PR Shipped` 🚀 |
 
