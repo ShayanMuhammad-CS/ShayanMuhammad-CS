@@ -1,15 +1,15 @@
 <div align="center">
 
 # Shayan Muhammad
-### Senior Agentic Systems Engineer & Product Architect
+### Autonomous AI Systems Engineer & Agentic Runtime Architect
 
 <p align="center">
-  <b>Full Product Stakeholder • Zero-Trust Agentic Architectures • Upstream Open-Source Contributor</b><br/>
-  Driving systems from zero-to-one: from formal architectural specifications and adversarial audit reports to production-grade deployment.
+  <b>Upstream Core Contributor • Zero-Trust Agent Runtimes • Deterministic Verification</b><br/>
+  Engineering production agent harnesses, headless CDP automation, AST-level execution gates, and multi-agent coordination.
 </p>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ShayanMuhammad--CS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShayanMuhammad-CS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shayan%20Muhammad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shayan-muhammad-cs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shayan%20Muhammad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shayan-muhammad-ai)
 [![Email](https://img.shields.io/badge/Email-shayanmuhammad.cs%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shayanmuhammad.cs@gmail.com)
 
 </div>
@@ -17,79 +17,72 @@
 ---
 
 ```yaml
-Profile: Full-Stack Product Architect & Senior AI Systems Engineer
-Operating Mode: Sole Stakeholder (End-to-End Ownership: Concept → Spec → Audit → Build → Deploy)
-Core Disciplines: Deterministic Agent Guardrails · Local Air-Gapped RAG · Multimodal Vision · Distributed Systems
-Engineering Philosophy: Code-level mathematical guarantees over probabilistic LLM assumptions
+Profile: AI Systems Engineer & Agentic Runtime Architect
+Location: Islamabad, Pakistan | Remote Worldwide
+Specializations: Autonomous Agent Runtimes · CDP Browser Automation · Deterministic Guardrails · Multi-Agent Protocols
+Core Tenet: Code-level mathematical invariants over probabilistic LLM assumptions
 ```
 
 ---
 
-## 🏛️ Systems & Products (Full Stakeholder Ownership)
+## 🌐 Tier-1 Open-Source AI Agent Contributions
 
-*These are systems where I own the complete lifecycle as the sole stakeholder: product strategy, formal system specifications (EGM), adversarial audit reports, and production code.*
+*Direct upstream architectural contributions and patches to leading production agent frameworks:*
 
-### 1. [Shaheen & IntentLock™](https://github.com/ShayanMuhammad-CS/hunter) — Zero-Trust Agentic Execution & Escrow
-* **Role**: Product Lead & Principal Architect (End-to-End Stakeholder)
-* **The Problem**: Autonomous AI agents suffer from the "Checkout Cliff"—hallucinating orders, violating budget bounds, and remaining susceptible to stealth prompt-injections during live checkout.
-* **The Architecture**:
-  * **Cryptographic Intent Invariants**: Compiles raw user intents into mathematically bounded Pydantic schemas.
-  * **Two-Phase Financial Escrow**: Integrates PayPal Sandbox v2 (`AUTHORIZE` $\rightarrow$ `CAPTURE`). Funds are placed on programmatic hold; capture is strictly gated behind zero-trust validation.
-  * **Deterministic Runtime Guardrails**: Enforces code-level interceptors (`guardrails.py`) that prevent agent self-modification or test tampering, combined with Chrome DevTools Protocol (CDP) Shadow DOM traversal.
-  * **Audit Reports & Specs**: Built via the Elephant-Goldfish Model (EGM), documented through exhaustive formal design specifications and independent adversarial audit reports.
+| Framework | Subsystem & Technical Contribution | Status & Verification |
+| :--- | :--- | :---: |
+| [**browser-use / browser-use**](https://github.com/browser-use/browser-use) `YC W25` | **Multi-Action Screenshot Pruning & State Retention**<br/>Engineered reverse multi-part iteration in `_prune_images` to preserve newest screenshots in multi-action turns, preventing stale visual context and prompt memory bloat. | [**PR #6440**](https://github.com/browser-use/browser-use/pull/6440)<br/>`24/24 CI Green (Py 3.11-3.14)` 🛡️ |
+| [**crewAIInc / crewAI**](https://github.com/crewAIInc/crewAI) | **Task Guardrail Pydantic & JSON Output Hydration**<br/>Pre-hydrated structured output models before guardrail evaluation and ensured sanitized re-derivation from `task_output.raw` so output redactions are preserved downstream. | [**PR #9496**](https://github.com/crewAIInc/crewAI/pull/9496)<br/>`Strix & Cursor Cleared` ⚡ |
+| [**topoteretes / cognee**](https://github.com/topoteretes/cognee) | **Bluesky AT Protocol Streaming Connector**<br/>Engineered canonical XRPC live ingestion with pagination, facets parsing, and multi-byte UTF-8 byte-offset slicing to eliminate Unicode alignment faults. | [**PR #6713**](https://github.com/topoteretes/cognee/pull/6713)<br/>`Merged / Active` 🚀 |
+| [**All-Hands-AI / OpenHands**](https://github.com/All-Hands-AI/OpenHands) `YC` | **AI Agent File Editor Runtime**<br/>Surgical file editing mechanics and validation boundaries for autonomous developer workflows. | [**PR #6853**](https://github.com/All-Hands-AI/OpenHands/pull/6853)<br/>`Under Review` 🔍 |
+| [**modelcontextprotocol / servers**](https://github.com/modelcontextprotocol/servers) | **MCP Server Confinement & Isolation**<br/>Hardened boundary parameters and repository scope isolation for `mcp-server-git`. | `Active Contribution` 🛡️ |
+| [**huggingface / smolagents**](https://github.com/huggingface/smolagents) | **CPython Argument Binding in Local Python Executor**<br/>Engineered standard CPython keyword/positional argument resolution for tool calling in local sandboxes. | [**PR #2755**](https://github.com/huggingface/smolagents/pull/2755)<br/>`Shipped` 🚀 |
+| [**refined-github / refined-github**](https://github.com/refined-github/refined-github) | **Deployment Visibility & Status Filtering**<br/>Extended `hide-inactive-deployments` to intelligently prune failed and stale deployment markers across enterprise dashboards. | [**PR #10013**](https://github.com/refined-github/refined-github/pull/10013)<br/>`Merged` ✅ |
+
+---
+
+## 🏆 Hackathons & Machine Learning Benchmarks
+
+*Audited competitive submissions and formal verification evaluations:*
+
+* **[SpecGate](https://github.com/ShayanMuhammad-CS/specgate) — Atlassian Codegeist 2026 ($120k Prize Pool)**:  
+  *Context Guardrail & Socratic PR Specification Verifier for Atlassian Jira & Rovo.* Implements pre-flight AST verification, developer intent alignment, and automated ADR generation ([Devpost Submission](https://devpost.com/software/specgate)).
+* **Physical Engineering's Last Exam (PLE Benchmark) — Google DeepMind & Kaggle**:  
+  *Repository:* `ple-opus-harness`. Achieved **29/29 passed validation artifacts (0 errors, 0 warnings)** via official benchmark kit (`python -m kit artifacts`). Architected physical invariant gating ($G=1$), AST prompt caching, and multi-modal evaluation loops.
+* **Madinah AI Crowd Prediction Challenge — MDA & KAUST**:  
+  Engineered deep spatio-temporal forecasting architectures with temporal decay and crowd count imputation, achieving peak score of **0.823 (Rank 201)** on global leaderboard.
+* **[IntentLock](https://devpost.com/software/intentlock-zero-trust-paypal-escrow-for-ai-commerce) — PayPal AI Hackathon**:  
+  Zero-trust in-chat agentic commerce engine compiling natural language intent into strict Pydantic execution bounds and two-phase escrow release (`AUTHORIZE` $\rightarrow$ `CAPTURE`).
+
+---
+
+## 🏛️ Systems & Products (Full Lifecycle Ownership)
+
+### 1. [SpecGate](https://github.com/ShayanMuhammad-CS/specgate) — Deterministic Pre-Flight Gatekeeper
+* **Role**: Lead Architect & Full-Stack Developer
+* **Architecture**: Intercepts developer pull requests against formal specifications, enforcing invariant verification before code review merge queues. Integrated with Jira/Rovo REST APIs.
 
 ### 2. [Multimodal RAG Pipeline](https://github.com/ShayanMuhammad-CS/Multimodal_RAG_Pipeline) — Document Intelligence Engine
 * **Role**: System Architect & Developer
-* **The Architecture**: Pairs dense vector retrieval with Vision-Language Models (VLMs) to process documents containing complex tabular figures, charts, and diagrams without information loss from lossy OCR/caption extraction.
+* **Architecture**: Pairs dense vector retrieval with Vision-Language Models (VLMs) to process documents containing complex tabular figures, charts, and diagrams without lossy OCR degradation.
 
 ### 3. [DocuMind](https://github.com/ShayanMuhammad-CS/DOCUMIND-RAG-for-Your-Notes) — Air-Gapped Local Neural RAG
 * **Role**: System Architect & Developer
-* **The Architecture**: A zero-telemetry, fully local personal knowledge engine powered by ChromaDB, Ollama, and cross-encoder reranking. Guarantees 100% data residency with zero external API dependencies.
+* **Architecture**: Fully local personal knowledge engine powered by ChromaDB, Ollama, and cross-encoder reranking. 100% data residency with zero external API dependencies.
 
-### 4. [MeetSense](https://github.com/ShayanMuhammad-CS/MeetSense) — Modular Audio Intelligence
-* **Role**: System Architect & Developer
-* **The Architecture**: Real-time audio/video ingest, diarization, speech-to-text, and conversational intelligence pipeline engineered for high-noise acoustic environments.
-
-### 5. [DeforestAI](https://github.com/ShayanMuhammad-CS/DEFORESTAI-DETECTION-SYSTEM) — Satellite Vision Monitoring
-* **Role**: Machine Learning Engineer & Lead
-* **The Architecture**: Computer vision segmentation network processing multi-spectral satellite imagery to identify and monitor deforestation dynamics over temporal datasets.
+### 4. [DeforestAI](https://github.com/ShayanMuhammad-CS/DEFORESTAI-DETECTION-SYSTEM) — Satellite Vision Monitoring
+* **Role**: Machine Learning Engineer
+* **Architecture**: Computer vision segmentation network processing multi-spectral satellite imagery to identify and monitor deforestation dynamics over temporal datasets.
 
 ---
 
-## 🚀 Internal Product & Production Engineering Work
+## 📋 Architectural Rigor: EGM Spec Methodology
 
-Beyond standalone public repositories, I have driven and delivered **15+ production feature sets** across team codebases and internal platforms:
-* **Kanban & State Management**: Architected multi-lane interactive Kanban boards with real-time state synchronization, drag-and-drop mechanics, and optimistic UI updates.
-* **Per-User View State & Preferences**: Built persistence layers for customized filtering, sorting layouts, and saved workspace configurations.
-* **Permission Scoping & RBAC**: Implemented role-based access control engines, tenant isolation boundaries, and cryptographic route guards.
-* **Secure Attachment Pipelines**: Engineered authenticated file download streams, virus scanning hooks, and presigned asset delivery.
-* **Accessibility (a11y) Conformance**: Refactored complex component trees for full WCAG/ARIA compliance, keyboard navigation focus rings, and screen-reader tree semantics.
-
----
-
-## 🌐 Upstream Open Source Contributions (Major Ecosystem Repos)
-
-*Direct technical contributions and architectural patches to widely adopted open-source frameworks:*
-
-| Major Repository | Contribution & Subsystem | Status |
-| :--- | :--- | :---: |
-| [**modelcontextprotocol / servers**](https://github.com/modelcontextprotocol/servers) | **Model Context Protocol (MCP) Server Confinement & Isolation**<br/>Engineered boundary and repository scope isolation configurations for `mcp-server-git`, hardening unconfined tool execution parameters for agentic context pipelines. | `Contributions` 🛡️ |
-| [**adbar / trafilatura**](https://github.com/adbar/trafilatura) | **High-Fidelity Web & DOM Extraction Engine**<br/>Contributed robust text discovery, document structure parsing, and DOM edge-case filtering routines powering downstream LLM ingestion pipelines. | `Contributions` ⚡ |
-| [**huggingface / smolagents**](https://github.com/huggingface/smolagents/pull/2755) | **CPython Argument Binding in Local Python Executor**<br/>Engineered standard CPython keyword/positional argument resolution for tool calling in local sandboxes. Resolved critical parameter mapping mismatches during autonomous agent execution. | `PR Shipped` 🚀 |
-| [**makenotion / notion-sdk-js**](https://github.com/makenotion/notion-sdk-js/pull/779) | **Block Schema & Column Nesting Validation**<br/>Fixed child block nesting constraints allowing `column_list` and `column` structures inside single-level-nestable parent blocks across official JavaScript SDK typings. | `PR Shipped` 🚀 |
-| [**refined-github / refined-github**](https://github.com/refined-github/refined-github/pull/10013) | **Deployment Visibility & Status Filtering**<br/>Extended `hide-inactive-deployments` to intelligently prune failed and stale deployment markers across dense enterprise GitHub dashboards, improving workflow visibility for thousands of developers worldwide. | `Merged` ✅ |
-| [**tscircuit / schematic-symbols**](https://github.com/tscircuit/schematic-symbols/pull/452) | **Hardware EDA Symbol Specifications**<br/>Contributed standardized phototransistor optical schematic symbol geometry and pin definitions for the open-source browser EDA circuit ecosystem. | `PR Shipped` 🚀 |
-
----
-
-## 📋 Architectural Rigor: Reports & EGM Spec Methodology
-
-Every production system I lead is developed using the **Elephant-Goldfish Model (EGM)**, ensuring design decisions are rigorously documented and stress-tested before implementation:
-
-* **Concept Briefs (`docs/briefs/`)**: High-level problem formulation, checkout cliff dynamics, and ROI analysis.
+Every production system I lead is developed using the **Elephant-Goldfish Model (EGM)**:
+* **Concept Briefs (`docs/briefs/`)**: Problem formulation, failure modes, and threat analysis.
 * **Formal System Specifications (`docs/designs/`)**: Mathematical invariant definitions, Pydantic bounds, and two-phase sequence diagrams.
 * **Adversarial Audit Reports (`docs/reviews/`)**: Zero-context adversarial evaluations checking for prompt injection vulnerabilities, state drift, and race conditions.
-* **Deterministic Ground-Truth Evals (`evals/`)**: Python-based test suites validating invariant compliance and zero-trust policies under adversarial stress.
+* **Deterministic Ground-Truth Evals (`evals/`)**: Hermetic test suites validating invariant compliance under adversarial stress.
 
 ---
 
@@ -97,13 +90,12 @@ Every production system I lead is developed using the **Elephant-Goldfish Model 
 
 <div align="center">
 
-| Area | Technologies & Methods |
+| Domain | Core Technologies & Toolkits |
 | :--- | :--- |
-| **Languages** | `Python (AsyncIO, AST, CPython Internals)` · `TypeScript` · `JavaScript` · `SQL` · `Bash` |
-| **Agentic & AI** | `LiteLLM` · `LangChain` · `SmolAgents` · `Ollama` · `ChromaDB` · `Cross-Encoders` · `VLMs` |
-| **Systems & Backend** | `FastAPI` · `Node.js` · `PostgreSQL` · `Redis` · `Docker` · `Chrome DevTools Protocol (CDP)` |
-| **Frontend & UI** | `React 19` · `Next.js` · `TailwindCSS` · `Gradio` · `Vite` |
-| **Architecture** | `EGM Spec-Driven Development` · `Zero-Trust Verification` · `AST Interceptors` · `CI/CD Evals` |
+| **Agentic & AI** | `Autonomous Runtimes` · `LiteLLM` · `LangChain` · `CrewAI` · `Browser-Use` · `SmolAgents` · `Ollama` · `ChromaDB` |
+| **Languages & Internals** | `Python (AsyncIO, AST, CPython)` · `TypeScript` · `JavaScript` · `SQL` · `Bash` |
+| **Backend & Automation** | `FastAPI` · `Chrome DevTools Protocol (CDP)` · `Node.js` · `PostgreSQL` · `Redis` · `Docker` |
+| **Architecture** | `EGM Spec-Driven Development` · `Deterministic Guardrails` · `Invariant Sentinels` · `CI/CD Evals` |
 
 </div>
 
