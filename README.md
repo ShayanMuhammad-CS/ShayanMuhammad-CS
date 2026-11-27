@@ -97,18 +97,6 @@ Every production system I lead is developed using the **Elephant-Goldfish Model 
 
 </div>
 
----
-
-## 📊 GitHub Analytics & System Metrics
-
-<div align="center">
-
-<img src="github-metrics.svg" alt="Shayan Muhammad GitHub Metrics" width="100%" />
-
-</div>
-
----
-
 <div align="center">
   <sub>Engineered with deterministic rigor by <b>Shayan Muhammad</b> • <a href="mailto:shayanmuhammad.cs@gmail.com">shayanmuhammad.cs@gmail.com</a></sub>
 </div>
