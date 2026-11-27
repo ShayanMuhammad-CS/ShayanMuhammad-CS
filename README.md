@@ -4,24 +4,21 @@
 ### Autonomous AI Systems Engineer & Agentic Runtime Architect
 
 <p align="center">
-  <b>Upstream Core Contributor • Zero-Trust Agent Runtimes • Deterministic Verification</b><br/>
-  Engineering production agent harnesses, headless CDP automation, AST-level execution gates, and multi-agent coordination.
+  <b>Upstream Core Contributor</b> &nbsp;•&nbsp; <b>Zero-Trust Agent Runtimes</b> &nbsp;•&nbsp; <b>Deterministic Verification</b><br/>
+  <sub>Engineering production agent harnesses, headless CDP automation, AST-level execution gates, and multi-agent coordination.</sub>
 </p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-ShayanMuhammad--CS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShayanMuhammad-CS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shayan%20Muhammad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shayan-muhammad-ai)
-[![Email](https://img.shields.io/badge/Email-shayanmuhammad.cs%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shayanmuhammad.cs@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-ShayanMuhammad--CS-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShayanMuhammad-CS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shayan%20Muhammad-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shayan-muhammad-ai)
+[![Email](https://img.shields.io/badge/Email-shayanmuhammad.cs%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shayanmuhammad.cs@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Islamabad%2C%20Pakistan-24292F?style=flat-square&logo=googlemaps&logoColor=white)](mailto:shayanmuhammad.cs@gmail.com)
 
 </div>
 
 ---
 
-```yaml
-Profile: AI Systems Engineer & Agentic Runtime Architect
-Location: Islamabad, Pakistan | Remote Worldwide
-Specializations: Autonomous Agent Runtimes · CDP Browser Automation · Deterministic Guardrails · Multi-Agent Protocols
-Core Tenet: Code-level mathematical invariants over probabilistic LLM assumptions
-```
+> **Core Engineering Invariant**: *Code-level mathematical bounds over probabilistic LLM assumptions.*  
+> Specialized in autonomous agent runtimes, AST-level execution boundaries, stealth headless CDP automation, and deterministic verification harnesses.
 
 ---
 
