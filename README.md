@@ -1,7 +1,7 @@
 <div align="center">
 
 # Shayan Muhammad
-### Autonomous AI Systems Engineer & Agentic Runtime Architect
+### Applied AI Systems Engineer & Agentic Runtime Architect
 
 <p align="center">
   <b>Upstream Core Contributor</b> &nbsp;•&nbsp; <b>Zero-Trust Agent Runtimes</b> &nbsp;•&nbsp; <b>Deterministic Verification</b><br/>
