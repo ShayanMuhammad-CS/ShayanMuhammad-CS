@@ -101,16 +101,11 @@ Every production system I lead is developed using the **Elephant-Goldfish Model 
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & System Metrics
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=ShayanMuhammad-CS&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=58A6FF&title_color=58A6FF&text_color=8B949E" alt="GitHub Stats" />
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShayanMuhammad-CS&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ShayanMuhammad-CS&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub Streak" />
+<img src="github-metrics.svg" alt="Shayan Muhammad GitHub Metrics" width="100%" />
 
 </div>
 
