@@ -1,0 +1,81 @@
+# ==============================================================================
+# GitHub Metrics Dashboard (Simon Lecoq / lowlighter Layout)
+# Generates the 2-column isometric metrics dashboard for profile README
+# ==============================================================================
+
+name: GitHub Metrics Dashboard
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # Runs daily at 16:00 UTC (21:00 PKT)
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Simon Lecoq Style Metrics Infographic
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: ShayanMuhammad-CS
+          template: classic
+          
+          # ========================================================
+          # 1. LAYOUT & APPEARANCE (Exact 2-Column Split)
+          # ========================================================
+          config_display: columns
+          config_timezone: Asia/Karachi
+          config_order: base.header, habits, topics, isocalendar, languages
+          
+          # ========================================================
+          # 2. LEFT COLUMN: BASE HEADER & REPOSITORY STATS
+          # ========================================================
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+
+          # ========================================================
+          # 3. LEFT COLUMN: CODING HABITS & ACTIVITY HISTOGRAMS
+          # ========================================================
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts_type: classic
+
+          # ========================================================
+          # 4. LEFT COLUMN: MASTERED TECHNOLOGIES & TOPIC ICONS
+          # ========================================================
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          plugin_topics_sort: stars
+
+          # ========================================================
+          # 5. RIGHT COLUMN: 3D ISOMETRIC CALENDAR
+          # ========================================================
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # ========================================================
+          # 6. RIGHT COLUMN: MOST USED LANGUAGES
+          # ========================================================
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+
+          # ========================================================
+          # 7. EXCLUDED (Per Candidate Direction)
+          # ========================================================
+          plugin_projects: no
